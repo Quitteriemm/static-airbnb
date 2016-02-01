@@ -16,27 +16,37 @@
     </form>
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
-
+    <%=link_to "Contact", "team.html", class: "navbar-wagon-item navbar-wagon-link" %>
+   <!--  <a href="" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+ -->
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a>
+     <%= link_to "Team", "team.html", class: "navbar-wagon-item navbar-wagon-link" %>
+    <!-- <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a> -->
 
     <!-- Notification link-->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">
+    <% link_to "#", class: "navbar-wagon-item navbar-wagon-link" do %>
       <div class="badge-container">
         <i class="fa fa-envelope-o"></i>
         <div class="badge badge-blue">3</div>
       </div>
+      <% end %>
     </a>
 
     <!-- Profile picture and dropdown -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
+
         <img src="http://placehold.it/50x50" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Log Out</a></li>
+          <li>
+          <%= link_to "Profile", "team.html"%>
+          </li>
+          <li>
+          <%= link_to "dashboard", "team.html"%>
+          </li>
+          <li>
+         <%= link_to "Log Out", "team.html"%>
+          </li>
         </ul>
       </div>
     </div>
