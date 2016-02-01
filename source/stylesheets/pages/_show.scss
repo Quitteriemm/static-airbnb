@@ -1,0 +1,31 @@
+.header-flat {
+  padding: 30px 20px;
+  border: 1px solid #dce0e0;
+  form {
+    background: $gray-lighter;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  &-details {
+
+  }
+}
+
+.header-flat-details {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    padding-left: 0;
+}
+.header-flat-owner {
+  margin-right: 20px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.header-flat-name {
+
+
+}
