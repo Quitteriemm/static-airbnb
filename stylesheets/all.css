@@ -9363,6 +9363,149 @@ button.close {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border: white 1px solid; }
 
+/* line 1, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_banner.scss */
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+/* line 10, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_banner.scss */
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
+
+/* line 15, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_banner.scss */
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px; }
+
+/* line 1, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_card.scss */
+.card {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px; }
+
+/* line 10, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_card.scss */
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+/* line 15, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_card.scss */
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px; }
+
+/* line 21, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_card.scss */
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px; }
+
+/* line 26, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_card.scss */
+.card-description h2 {
+  font-size: 22px; }
+
+/* line 29, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_card.scss */
+.card-description p {
+  font-size: 15px; }
+
+/* line 32, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_card.scss */
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0; }
+
+/* line 41, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_card.scss */
+.card-link:hover {
+  opacity: 0.1; }
+
+/* line 1, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_feature.scss */
+.features img {
+  width: 100px; }
+
+/* line 4, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_feature.scss */
+.features h2 {
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+/* line 8, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_feature.scss */
+.features p {
+  font-size: 15px;
+  font-weight: lighter; }
+
+/* line 1, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_footer.scss */
+#footer {
+  background: #332732;
+  padding: 30px 0;
+  color: #CCCCCC; }
+
+/* line 6, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_footer.scss */
+#footer p {
+  margin-top: 17px; }
+
+/* line 9, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_footer.scss */
+#footer ul {
+  margin-top: 10px; }
+
+/* line 12, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_footer.scss */
+#footer a {
+  color: #CCCCCC;
+  font-size: 30px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease; }
+
+/* line 18, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/components/_footer.scss */
+#footer a:hover {
+  color: yellow; }
+
+/* line 1, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/pages/_show.scss */
+.header-flat {
+  padding: 30px 20px;
+  border: 1px solid #dce0e0; }
+  /* line 4, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/pages/_show.scss */
+  .header-flat form {
+    background: #eeeeee;
+    padding: 30px;
+    border-radius: 5px; }
+
+/* line 14, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/pages/_show.scss */
+.header-flat-details {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-left: 0; }
+
+/* line 20, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/pages/_show.scss */
+.header-flat-owner {
+  margin-right: 20px; }
+
+/* line 24, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/pages/_show.scss */
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+/* line 2, /Users/mathelin-moreauxQuitterie/code/Quitteriemm/static-airbnb/source/stylesheets/pages/_team.scss */
+.team .padded {
+  padding: 100px; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
